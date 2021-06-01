@@ -30,7 +30,6 @@
     padding-top: 100px;
   }
   .circle__wrapper > .circle-dot > .circle {
-    content: " ";
     display: block;
     width: 100px;
     height: 100px;
