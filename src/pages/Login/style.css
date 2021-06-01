@@ -1,0 +1,46 @@
+.login__wrapper{
+    background:#263238;
+    height:100vh;
+}
+.login__wrapper form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding:28px 16px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 8px 8px 0px #1b2327;
+}
+.login__wrapper header{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.login__wrapper input{
+    display: block;
+    padding: 8px 8px 8px 32px;
+    margin-bottom:4px;
+    min-width: 200px;
+    background: #eceff1;
+    border: none;
+    line-height: 18px;
+}
+
+.login__wrapper .input__wrapper>img{
+    height: 18px;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+}
+.login__wrapper .input__wrapper{
+    position: relative;
+}
+.login__wrapper .error{
+    background: #e64747;
+    padding: 1rem;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}

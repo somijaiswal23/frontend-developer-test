@@ -1,0 +1,39 @@
+.devices__wrapper{
+    background: #ff7043;
+    height: calc(100vh - 97px);
+    width: 100%;
+    padding:1rem;
+    position: relative;
+}
+.devices__wrapper footer{
+    position: fixed;
+    bottom: 0px;
+    padding: 2rem;
+    background: #d76845;
+    width: 100%;
+    text-align: center;
+}
+.devices__wrapper .heading{
+    font-size: 60px;
+    color: #fff;
+}
+.circle__wrapper {
+    height: 90%;
+    width: 100%;
+    position: relative;
+  }
+  .circle__wrapper > .circle-dot {
+    width: 0px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    padding-top: 100px;
+  }
+  .circle__wrapper > .circle-dot > .circle {
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+  }

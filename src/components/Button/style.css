@@ -1,0 +1,25 @@
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 8px 24px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.btn-primary{
+    color: #fff;
+    background-color: #0277bd;
+    border-color: #0277bd;
+}
+.btn-secondary{
+    color: #fff;
+    background-color: #37474f;
+    border-color: #37474f;
+}
+.btn-success{
+    color: #37474f;
+    background-color: #fff;
+    border-color: #fff;
+}

@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+.position__center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-center{
+  text-align: center;
+}
+.text-white{
+  color:#fff;
+}
+.marginTop-16{
+  margin-top:1rem;
+}
+.marginRight-16{
+  margin-right:1rem;
+}
+.font60{
+  font-size: 60px;
+}
