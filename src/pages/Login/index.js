@@ -67,7 +67,7 @@ const Login = ({history}) =>{
             </div>
             <div className="input__wrapper">
                 <img src={EXCLAMATION} alt="Email input icon"/>
-                <input type="text" onChange={changeHandler} name="password" placeholder="Password"/>
+                <input type="password" onChange={changeHandler} name="password" placeholder="Password"/>
                 
             </div>
             <Button label="LOG IN" className="btn-primary marginTop-16" type="submit"/>
