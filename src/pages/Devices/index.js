@@ -60,7 +60,7 @@ const Devices = ({history}) =>{
     }
     return (<div className="devices__wrapper">
                 <div className="position__center text-center text-white">
-                    <div class="heading">{devices.length}</div>
+                    <div className="heading">{devices.length}</div>
                     <p>devices online</p>
                 </div>
                 <div className="circle__wrapper animate-rotate">
